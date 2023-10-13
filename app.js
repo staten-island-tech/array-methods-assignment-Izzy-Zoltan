@@ -1,14 +1,30 @@
 const students = [{
         firstname: "Gabriel Isaac",
-        Lastname: "Liberov"
+        Lastname: "Liberov",
+        Haircolor: "\"Ginger\"",
+        Brownhair:  false, 
+        Siblings: ['Stephanie']
     },
     {
         firstname: "Noah",
-        lastname: "Rozin"
+        lastname: "Rozin",
+        Haircolor: "black",
+        Brownhair: false,
+        Siblings: ['Ethan',"Pelia"]
     },
     {
         firstname: "Rylan",
-        lastname: "Geykhman"
+        lastname: "Geykhman",
+        Haircolor: "Brown",
+        Brownhair: true,
+        Siblings: ["None"]
+    }
+    {
+        firstname: "Izzy",
+        lastname: "Zoltan",
+        Haircolor: "Brown-ER",
+        Brownhair: true,
+        Siblings: ["Lea","Mordechai","Abby"]
     }
 ]
 
