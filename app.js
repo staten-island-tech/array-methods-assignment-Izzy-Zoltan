@@ -32,8 +32,12 @@ const students = [{
 students.forEach((students)=> console.log(students.firstname))
 students.forEach((students)=> console.log(students))
 students.forEach((students)=> {
-    function checksiblingstrue(number,numberlist){
-        return number > 50
-    }
-    students.filter(student.number,numberlist);
-})
+    function numberchecker(number){
+            return number.filter(number>50);
+          }
+      
+    students.number.forEach((number)=> {
+    const numbers = students.number.filter(numberchecker(students.number));
+    numberlist.push(numbers)
+})})
+console.log(numberlist)
