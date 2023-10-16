@@ -18,7 +18,7 @@ const students = [{
         Haircolor: "Brown",
         Brownhair: true,
         Siblings: ["None"]
-    }
+    },
     {
         firstname: "Izzy",
         lastname: "Zoltan",
@@ -29,3 +29,4 @@ const students = [{
 ]
 
 students.forEach((students)=> console.log(students.firstname))
+students.forEach((students)=> console.log(students))
