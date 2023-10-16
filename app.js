@@ -1,32 +1,39 @@
+const numberlist = []
 const students = [{
         firstname: "Gabriel Isaac",
         Lastname: "Liberov",
         Haircolor: "\"Ginger\"",
         Brownhair:  false, 
-        Siblings: ['Stephanie']
+        number: [57,43]
     },
     {
         firstname: "Noah",
         lastname: "Rozin",
         Haircolor: "black",
         Brownhair: false,
-        Siblings: ['Ethan',"Pelia"]
+        number: [17,96,52]
     },
     {
         firstname: "Rylan",
         lastname: "Geykhman",
         Haircolor: "Brown",
         Brownhair: true,
-        Siblings: ["None"]
+        number: [23]
     },
     {
         firstname: "Izzy",
         lastname: "Zoltan",
         Haircolor: "Brown-ER",
         Brownhair: true,
-        Siblings: ["Lea","Mordechai","Abby"]
+        number: [89,69,42,100]
     }
 ]
 
 students.forEach((students)=> console.log(students.firstname))
 students.forEach((students)=> console.log(students))
+students.forEach((students)=> {
+    function checksiblingstrue(number,numberlist){
+        return number > 50
+    }
+    students.filter(student.number,numberlist);
+})
