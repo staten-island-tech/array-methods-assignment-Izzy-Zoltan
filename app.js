@@ -25,14 +25,15 @@ const students = [{
         Haircolor: "Brown-ER",
         Brownhair: true,
         num:[8,42,36,12],
-    }
+    } 
 ];
 
-students.forEach((student)=> console.log(student.firstname));
 students.forEach((student)=> console.log(student));
+
 students.forEach((student)=> 
 student.num.forEach((numbi)=> console.log(numbi)));
+
 const browntrue = students.filter((student)=> student.Brownhair);
-browntrue.forEach((brownhaired)=> console.log(brownhaired.firstname));
+browntrue.forEach((brownhaired)=> console.log(brownhaired.firstname + ' has brown hair'));
 
 
